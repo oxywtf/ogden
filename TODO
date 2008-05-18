@@ -1,0 +1,12 @@
+= TODO
+
+== Primary Goals
+
+* Make enchanting explicit.
+* Remove code injection (eg. included(base); base.class_eval...)
+* Simplify
+
+== Secondary Goals
+
+* Better DB metadata ?
+

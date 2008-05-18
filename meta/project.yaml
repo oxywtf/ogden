@@ -1,0 +1,16 @@
+project  : og
+title    : Og
+contact  : Trans <transfire at gmail.com>
+author   : George K. Moschovitis
+brief    : State of the art object-relational mapping system.
+homepage : "http://www.nitroproject.org"
+
+description:
+  Ogden is an expiremental development fork of Og.
+  Object Graph (Og) is a state of the art ORM system.
+  Og serializes standard Ruby objects to Mysql, Postgres, Sqlite,
+  KirbyBase, Filesystem and more.
+
+dependency:
+  - [ facets, >= 2.1.0 ]
+
