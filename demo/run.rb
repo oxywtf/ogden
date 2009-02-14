@@ -54,7 +54,7 @@ class Article
 
   # exactly like the standard Ruby attr creates only the reader.
 
-  prop :create_time, Time
+  property :create_time, Time
   
   # define comment relation:
 
