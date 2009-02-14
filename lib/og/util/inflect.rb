@@ -1,10 +1,14 @@
-module Og
-  require 'inflect'
-end
+require "english"
+require "og/inflect"
+
+#module Og
+#  require "inflect"
+#end
 
 #require 'facets/module/attr_setter'
 #require 'facets/module/basename'
 #require 'facets/string/to_const'
+#require "facets/string/underscore"
 
 # = ORMSupport
 #
@@ -89,9 +93,22 @@ end
 
 class String
   include ORMSupport
+
+  # Removes the module part from a modularized expression.
+  #
+  #   "English::Style".demodulize  #=> "Style"
+  #   "Style".demodulize           #=> "Style"
+  #
+  # TODO: This is very poor name for this, b/c it is not the
+  #       opposite of #modulize.
+#  def demodulize
+#    to_s.gsub(/^.*::/, '')
+# end
+
 end
 
 class Class
   include ORMSupport
   alias_method :demodulize, :basename
 end
+

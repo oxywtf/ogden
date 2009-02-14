@@ -13,7 +13,8 @@ require "facets"
 require "facets/synchash"
 require "facets/syncarray"
 require "facets/logger"
-require "facets/style"
+
+require "og/inflect"
 
 require "og/global_logger"
 require "og/aspects"
@@ -24,6 +25,8 @@ require "facets/annotations"
 
 require "facets/module/is"
 require "facets/cattr"
+
+require 'english'
 
 # Make #include a public method.
 class Module
@@ -262,15 +265,6 @@ module Og
 
 end
 
-class String
-  def demodulize
-    style(:demodulize)
-  end
-
-  def underscore
-    style(:underscore)
-  end
-end
 
 # Include Og::Mixin in the Toplevel for convienience.
 
