@@ -5,10 +5,11 @@ rescue Object => ex
   error ex
 end
 
+require "og/store/sql"
+require "og/adapter/postgresql/override"
+require "og/adapter/postgresql/utils"
+
 module Og
-  require "store/sql"
-  require "adapter/postgresql/override"
-  require "adapter/postgresql/utils"
 
 # A Store that persists objects into a PostgreSQL database.
 # To read documentation about the methods, consult the

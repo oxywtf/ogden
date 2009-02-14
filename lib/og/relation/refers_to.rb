@@ -1,6 +1,6 @@
-module Og
+require "og/relation"
 
-require "relation"
+module Og
 
 # A refers to relation. Stores the foreign key in the object.
 #

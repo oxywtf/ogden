@@ -1,7 +1,7 @@
 #require 'facets/hash/insert'
-module Og
+require 'og/relation/refers_to'
 
-require 'relation/refers_to'
+module Og
 
 class BelongsTo < RefersTo
 

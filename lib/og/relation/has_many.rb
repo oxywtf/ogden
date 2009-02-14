@@ -1,9 +1,9 @@
-module Og
+require "og/relation"
+require "og/collection"
+require "og/ormsupport"
+require "og/relation/belongs_to"
 
-require "relation"
-require "collection"
-require "util/inflect"
-require "relation/belongs_to"
+module Og
 
 class HasManyCollection < Collection
 end

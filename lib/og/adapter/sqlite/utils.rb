@@ -1,5 +1,6 @@
+require "og/store/sql/utils"
+
 module Og
-  require "store/sql/utils"
 
 module SqliteUtils
 

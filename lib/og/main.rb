@@ -9,27 +9,21 @@
 
 puts "LOADING Og..." if $DBG
 
-require "facets"
-require "facets/synchash"
-require "facets/syncarray"
-require "facets/logger"
+#module Og
+#  LOCATION = File.dirname(__FILE__)
+#  # Require relative to Og lib path.
+#  def self.require(path)
+#    Kernel.require(File.join(LOCATION,path))
+#  end
+#end
 
-require "og/inflect"
+require "og/vendor/facets"
 
 require "og/global_logger"
 require "og/aspects"
 
-require "facets/settings"
-require "facets/nullclass"
-
-require "og/util/annotations"
-#require "facets/annotations"
-
-require "facets/module/is"
-require "facets/cattr"
-
-#require 'english'
-require "og/util/inflect"
+require "og/ormsupport"
+require "og/annotations"
 
 # Make #include a public method.
 class Module
@@ -58,19 +52,10 @@ end
 # and the engine will serialize a YAML dump of the object.
 # Arbitrary object graphs are supported too.
 
-module Og
-  LOCATION = File.dirname(__FILE__)
-
-  def self.require(path)
-    Kernel.require(File.join(LOCATION,path))
-  end
-end
+require "og/validation"
 
 #
-
 module Og
-
-  require "validation"  #
 
   # The version.
 
@@ -277,11 +262,11 @@ include Og::Mixin
 # gmosx: leave this here.
 #++
 
-require "og/util/ann_attr"
+#require "og/util/ann_attr"
 require "og/manager"
 require "og/errors"
 require "og/autoload"
 
-require "og/util/types"
+require "og/types"
 require "og/validation"
 

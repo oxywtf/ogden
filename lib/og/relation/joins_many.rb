@@ -1,10 +1,9 @@
 #require 'facets/hash/insert'
+require "og/relation"
+require "og/collection"
+require "og/ormsupport"
 
 module Og
-
-require "relation"
-require "collection"
-require "util/inflect"
 
 class JoinsManyCollection < Collection
 end

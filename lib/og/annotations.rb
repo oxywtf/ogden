@@ -1,14 +1,9 @@
-# Customize Facets ann_attr implementation to be more suitable
-# for Og.
+require "og/vendor/anise"
+require "og/validation"
+
 #--
 # FIXME, THINK: why are these defined in Module.
 #++
-
-require "og/util/annotations"
-
-module Og
-  require "validation"
-end
 
 class Module
 
@@ -114,3 +109,4 @@ class Module
   end
 
 end
+

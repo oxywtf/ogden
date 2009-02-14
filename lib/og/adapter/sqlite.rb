@@ -8,10 +8,11 @@ end
 require "fileutils"
 require "set"
 
+require "og/store/sql"
+require "og/adapter/sqlite/override"
+require "og/adapter/sqlite/utils"
+
 module Og
-  require "store/sql"
-  require "adapter/sqlite/override"
-  require "adapter/sqlite/utils"
 
 # A Store that persists objects into an Sqlite3 database.
 #

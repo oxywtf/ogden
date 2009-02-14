@@ -1,6 +1,8 @@
 require "facets/class_extension"
 require "facets/inheritor"
 
+module Og; end
+
 module Og::Mixin
 
 # Encapsulates a validation error.

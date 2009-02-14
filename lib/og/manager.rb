@@ -1,11 +1,11 @@
 require "facets/pool"
 #require "facets/class/descendents"
 
-module Og
+require "og/model"
+require "og/store"
+require "og/adapter"
 
-require "model"
-require "store"
-require "adapter"
+module Og
 
 # A Manager manages Models. Each Manager is attched to a
 # single Store. Multiple Managers can exist in the same Og

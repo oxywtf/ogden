@@ -1,13 +1,6 @@
-#require 'facets/kernel/constant'
-#require 'facets/string/capitalized'
-#require 'facets/class_extension'
-require 'facets/inheritor'
-require 'facets/string/camelcase'
+require 'og/ormsupport'
 
 module Og
-
-  require 'inflect'
-  require 'util/inflect'
 
 # A relation between Entities.
 #

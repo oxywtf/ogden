@@ -1,9 +1,10 @@
 require 'oci8'
 
+require 'og/store/sql'
+require 'og/adapter/oracle/override'
+require 'og/adapter/oracle/utils'
+
 module Og
-  require 'store/sql'
-  require 'adapter/oracle/override'
-  require 'adapter/oracle/utils'
 
 # The Oracle adapter. This adapter communicates with
 # an Oracle rdbms. For extra documentation see

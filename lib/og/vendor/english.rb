@@ -1,6 +1,6 @@
 require "english"
-require "og/inflect"
 
+=begin
 #module Og
 #  require "inflect"
 #end
@@ -112,4 +112,5 @@ class Class
   include ORMSupport
   alias_method :demodulize, :basename
 end
+=end
 

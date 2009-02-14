@@ -1,11 +1,11 @@
 #require "facets/class_extension"
 require "facets/kernel/instance_assign"
 
-module Og
+require "og/relation"
+require "og/ez/clause"
+require "og/ez/condition"
 
-require "relation"
-require "ez/clause"
-require "ez/condition"
+module Og
 
 # = Og::Model
 #

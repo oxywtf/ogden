@@ -11,10 +11,11 @@ rescue Object => ex
   end
 end
 
+require "og/store/sql"
+require "og/adapter/mysql/override"
+require "og/adapter/mysql/utils"
+
 module Og
-  require "store/sql"
-  require "adapter/mysql/override"
-  require "adapter/mysql/utils"
 
 # A Store that persists objects into a MySQL database. To read
 # documentation about the methods, consult the documentation for

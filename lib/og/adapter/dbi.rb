@@ -6,12 +6,14 @@ rescue Object => ex
   error ex
 end
 
+require "og/store/sql"
+require "og/adapter/dbi/override"
+require "og/adapter/dbi/utils"
+
+
 # TODO: Move some of this documentation to Oxyliquit (?)
 
 module Og
-  require "store/sql"
-  require "adapter/dbi/override"
-  require "adapter/dbi/utils"
 
 # A Store that persists objects into one of 13 possible database
 # backends.  The database used is specified by the Og#connect

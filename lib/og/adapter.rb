@@ -1,6 +1,6 @@
-module Og
+require "og/store"
 
-require "store"
+module Og
 
 # A specialization of a Store. Typically provides the interface
 # to an RDBMS System.

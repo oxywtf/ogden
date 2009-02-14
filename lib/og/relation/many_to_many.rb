@@ -1,6 +1,6 @@
-module Og
+require 'og/relation/joins_many'
 
-require 'relation/joins_many'
+module Og
 
 # A 'many_to_many' relation.
 # This objects is associated with an other using an intermediate
