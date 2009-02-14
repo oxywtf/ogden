@@ -2,6 +2,8 @@
 # But that project is being rebranded and this is the
 # only part we need for Og. So, for now at least we'll
 # just keep our own copy here.
+#
+# The project is being redranded? Who said that? (trans)
 
 module Og
 module English

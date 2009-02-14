@@ -1,0 +1,4 @@
+require 'anise'
+
+include Anise
+

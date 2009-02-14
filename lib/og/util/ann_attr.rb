@@ -4,7 +4,7 @@
 # FIXME, THINK: why are these defined in Module.
 #++
 
-require "facets/annotations"
+require "og/util/annotations"
 
 module Og
   require "validation"
@@ -30,8 +30,14 @@ class Module
   end
 
   # For backwards compatibility, this is DEPRECATED.
+  #
+  # Not sure why alias did not work.
+  #alias_method :property, :attr_accessor
+  #
+  def property(*a)
+    attr_accessor(*a)
+  end
 
-  alias_method :property, :attr_accessor
 
   # Return the serializable attributes of this class.
   # Serializable are attributes with the class annotation that

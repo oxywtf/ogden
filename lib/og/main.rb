@@ -21,12 +21,15 @@ require "og/aspects"
 
 require "facets/settings"
 require "facets/nullclass"
-require "facets/annotations"
+
+require "og/util/annotations"
+#require "facets/annotations"
 
 require "facets/module/is"
 require "facets/cattr"
 
-require 'english'
+#require 'english'
+require "og/util/inflect"
 
 # Make #include a public method.
 class Module

@@ -101,10 +101,11 @@ class String
   #
   # TODO: This is very poor name for this, b/c it is not the
   #       opposite of #modulize.
-#  def demodulize
-#    to_s.gsub(/^.*::/, '')
-# end
+  def demodulize
+    to_s.gsub(/^.*::/, '')
+  end
 
+  #alias_method :demodulize, :basename
 end
 
 class Class
