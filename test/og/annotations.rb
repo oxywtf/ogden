@@ -1,6 +1,6 @@
-require File.join(File.dirname(__FILE__), "..", "..", "helper.rb")
+require File.join(File.dirname(__FILE__), "..", "helper.rb")
 
-require "og/util/ann_attr"
+require "og/annotations"
 
 class MockClass
   attr_accessor :name, String

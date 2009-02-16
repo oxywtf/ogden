@@ -4,7 +4,8 @@ module Og::Mixin
 
 def Orderable(options)
   options = options.rekey(&:to_sym)
-  ParametricMixin.new(Orderable) do
+  #ParametricMixin.new(Orderable) do
+  Paramix.new(Orderable) do
     alias_method options[:position], :position if options[:position]
     #attr_accessor options[:type] if options[:type]
   end

@@ -10,13 +10,29 @@ module Og
 
 module SqlEnchantmentClassMethods
 
-  def set_table(table_name)
-    meta = (class << self; self; end)
-    meta.send(:define_method, :table) do
-      return table_name
-    end
-    meta.send(:alias_method, :schema, :table)
+  def table
+    @table ||= (
+      if schema_inheritance_child?
+        Og.table_prefix + schema_inheritance_root_class.tablename
+      else
+        Og.table_prefix + tablename
+      end
+    )
   end
+
+  def table=(name)
+    @table = name.to_s
+  end
+
+  alias_method :schema, :table
+
+  #def set_table(table_name)
+  #  meta = (class << self; self; end)
+  #  meta.send(:define_method, :table) do
+  #    return table_name
+  #  end
+  #  meta.send(:alias_method, :schema, :table)
+  #end
 
   attr_accessor :store
 
@@ -263,16 +279,16 @@ class SqlStore < Store
     # setup the table where this class is mapped.
     # FIXME: jl: Remove references to table, then remove these 5 lines
 
-    if klass.schema_inheritance_child?
-      klass.const_set "OGTABLE", table(klass.schema_inheritance_root_class) unless defined? klass::OGTABLE
-    else
-      klass.const_set "OGTABLE", table(klass) unless defined? klass::OGTABLE
-    end
+#    if klass.schema_inheritance_child?
+#      klass.const_set "OGTABLE", table(klass.schema_inheritance_root_class) unless defined? klass::OGTABLE
+#    else
+#      klass.const_set "OGTABLE", table(klass) unless defined? klass::OGTABLE
+#    end
 
     # Define table and schema aliases for table.
 
     klass.extend SqlEnchantmentClassMethods
-    klass.set_table(klass::OGTABLE)
+#    klass.set_table(klass::OGTABLE)
 
     klass.store = self
 
@@ -1038,7 +1054,8 @@ class SqlStore < Store
     unless map = klass.instance_variable_get("@field_map")
       real_klass = klass.table_class
 
-      sql = "SELECT * FROM #{real_klass::OGTABLE}"
+      #sql = "SELECT * FROM #{real_klass::OGTABLE}"
+      sql = "SELECT * FROM #{real_klass.table}"
       resolve_limit_options({:limit => 1}, sql)
       res = query(sql)
 

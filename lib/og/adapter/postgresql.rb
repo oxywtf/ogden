@@ -71,7 +71,8 @@ class PostgresqlAdapter < SqlStore
 
     pk = klass.primary_key
 
-    seq = "#{klass::OGTABLE}_#{pk}_seq"
+    #seq = "#{klass::OGTABLE}_#{pk}_seq"
+    seq = "#{klass.table}_#{pk}_seq"
 
     pkann = klass.ann(pk)
 

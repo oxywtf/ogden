@@ -139,10 +139,15 @@ module SqlUtils
   end
 
   # Return the table name for the given class.
-  
+  #--
+  # #ann! is used instead of #ann b/c we don't want to inherit
+  # the table name from it's parent class(es).
+  #
+  # NOTE: This might not be enough. Perhaps table name should not use annotations.
+  #++
   def table(klass)
-    return klass::OGTABLE if klass.const_defined?(:OGTABLE)
-    klass.ann(:self, :sql_table) || klass.ann(:self, :table) || quote_table("#{Og.table_prefix}#{tableize(klass)}")
+    #return klass::OGTABLE if klass.const_defined?(:OGTABLE)
+    klass.ann!(:self, :sql_table) || klass.ann!(:self, :table) || quote_table("#{Og.table_prefix}#{tableize(klass)}")
   end
 
   #--

@@ -78,7 +78,10 @@ class JoinsMany < Relation
 
         unless self.class.constants.include?(tmp_join_class_name)
           tmp_join_class = self.class.const_set(tmp_join_class_name, Class.new)
-          tmp_join_class.const_set('OGTABLE', join_table)
+          #tmp_join_class.const_set('OGTABLE', join_table)
+          tmp_join_class.class_eval do 
+            define_method(:table){ join_table }
+          end
         else
           tmp_join_class = self.class.const_get(tmp_join_class_name)
         end
@@ -132,7 +135,7 @@ class JoinsMany < Relation
         def find_#{target_plural_name}(options = {})
           find_options = {
             :join_table => "#{join_table}",
-            :join_condition => "#{join_table}.#{target_key}=\#{#{target_class}::OGTABLE}.oid",
+            :join_condition => "#{join_table}.#{target_key}=\#{#{target_class}.table}.oid",
             :condition => "#{join_table}.#{owner_key}=\#{Og.quote(#{owner_class.primary_key})}"
           }
           if options
@@ -147,7 +150,7 @@ class JoinsMany < Relation
         def count_#{target_plural_name}(options = nil)
           find_options = {
             :join_table => "#{join_table}",
-            :join_condition => "#{join_table}.#{target_key}=\#{#{target_class}::OGTABLE}.oid",
+            :join_condition => "#{join_table}.#{target_key}=\#{#{target_class}.table}.oid",
             :condition => "#{join_table}.#{owner_key}=\#{Og.quote(#{owner_class.primary_key})}"
           }
           if options

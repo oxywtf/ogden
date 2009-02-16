@@ -837,7 +837,8 @@ module Model
             tc = r.target_class
             if tc.serializable_attributes.include?($2.to_sym)
               field_name = r.foreign_key
-              value = "(SELECT #{tc.primary_key} FROM #{tc::OGTABLE} WHERE #{$2} = '#{value}')"
+              #value = "(SELECT #{tc.primary_key} FROM #{tc::OGTABLE} WHERE #{$2} = '#{value}')"
+              value = "(SELECT #{tc.primary_key} FROM #{tc.table} WHERE #{$2} = '#{value}')"
             end
           else
             anno = ann(name.to_sym)

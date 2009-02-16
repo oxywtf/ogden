@@ -2,18 +2,19 @@
 # Autoload core Og classes as needed. Potentially minimizes
 # startup time and memory footprint, allows for cleaner source
 # files, and makes it easier to move files around.
+#
+# Note: b/c autoload does not call #require Rolls can support
+# it. This is a known bug in Ruby.
 #++
 
-if $DBG || defined?(Library)
+if $DBG || defined?(Roll)
 
-  module Og
-    require "model/timestamped"
-    require "model/sti"
-    require "model/unmanageable"
-    require "model/taggable"
-  end
+  require "og/model/timestamped"
+  require "og/model/sti"
+  require "og/model/unmanageable"
+  require "og/model/taggable"
 
-else  # ???
+else
 
   Og::Mixin.autoload :Timestamped, "og/model/timestamped"
   Og::Mixin.autoload :TimestampedOnCreate, "og/model/timestamped"
@@ -22,3 +23,4 @@ else  # ???
   Og::Mixin.autoload :Taggable, "og/model/taggable"
 
 end
+
