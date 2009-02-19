@@ -4,11 +4,15 @@ module Og::Mixin
 
 def Orderable(options)
   options = options.rekey(&:to_sym)
-  #ParametricMixin.new(Orderable) do
-  Paramix.new(Orderable) do
+  mod = Orderable[*options]
+
+  #Paramix.new(Orderable) do
+  mod.module_eval do
     alias_method options[:position], :position if options[:position]
     #attr_accessor options[:type] if options[:type]
   end
+
+  mod
 end
 
 
@@ -20,25 +24,27 @@ end
 # of the object before inserting to have correct ordering.
 
 module Orderable
+  include Paramix
 
   def orderable_options
-    self.class.parametric_options[Orderable] || {}
+    self.class.mixin_parameters[Orderable] || {}
+    #mixin_parameters[Orderable] || {}
   end
 
   attr :position
 
-  #def self.parametric_options
+  #def self.mixin_parameters
   #  @parametic_options ||= {}
   #end
 
-  #def self.parametric_options=(opts)
+  #def self.mixin_parameters=(opts)
   #  @parametic_options = opts
   #end
 
   # Return and reset parmetric options
-  #def self.parametric_options!
-  #  ref = parametric_options
-  #  @parametric_options = nil
+  #def self.mixin_parameters!
+  #  ref = mixin_parameters
+  #  @mixin_parameters = nil
   #  return ref
   #end
 
