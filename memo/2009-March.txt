@@ -1,0 +1,32 @@
+From william.full.moon at gmail.com  Tue Mar 24 05:47:32 2009
+From: william.full.moon at gmail.com (* William)
+Date: Tue, 24 Mar 2009 20:47:32 +1100
+Subject: [Ogden] list of Nitro Powered sites?
+Message-ID: <9e03c3c60903240247m2217c298v8cb358773e812592@mail.gmail.com>
+
+Hi all...
+
+I've been busy on my researches, and have some time to connect back with the
+Og/Nitro gang.  Actually I'd like a nice mature, non-rails ruby bases web
+deployment system to generate interest in FOSS development in my local
+(geographical) area.
+
+There is no reason to not do Rails, it is a career move for some people I
+think.  I tend to thin the Nitro way is 'better'.  I also think that
+mono-culture is a poor substitute for thinking.  To mis-use Tolkein, "There
+can NOT be only one framework to rule them all".  For me.
+
+I would like some example URI-s for Nitro powered and Nitro derived web
+sites that you Know or Own?
+
+Thanks for you help, in advance.
+
+aloha,
+        \_w_/
+ ________________________________
+   ? http://mbimarketing.wordpress.com
+   ? http://adroit-process.blogspot.com
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://rubyforge.org/pipermail/ogden-developers/attachments/20090324/34736ba1/attachment.html>
+

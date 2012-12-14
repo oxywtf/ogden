@@ -1,0 +1,49 @@
+From transfire at gmail.com  Fri Jan  4 15:24:09 2008
+From: transfire at gmail.com (Trans)
+Date: Fri, 4 Jan 2008 12:24:09 -0800 (PST)
+Subject: [Ogden] Changes
+Message-ID: <2dbeb282-2e99-4b66-85b6-5417a2bf0a80@21g2000hsj.googlegroups.com>
+
+Judson,
+
+Have you done much with your branch yet? I've a made some minor fixes
+to the trunk, so if you want to merge those into your branch, or merge
+your branch into trunk that would be great.
+
+Then I'm going to make a branch of my own and effect explicit
+enchanting.
+
+T.
+
+From nyarly at gmail.com  Fri Jan  4 15:33:37 2008
+From: nyarly at gmail.com (Judson Lester)
+Date: Fri, 4 Jan 2008 12:33:37 -0800
+Subject: [Ogden] Changes
+In-Reply-To: <2dbeb282-2e99-4b66-85b6-5417a2bf0a80@21g2000hsj.googlegroups.com>
+References: <2dbeb282-2e99-4b66-85b6-5417a2bf0a80@21g2000hsj.googlegroups.com>
+Message-ID: <8905c87a0801041233g459f110ch3b1e9f0181fb8545@mail.gmail.com>
+
+I'm still in the midst of changes.  I'll merge yours into my branch.
+
+On Jan 4, 2008 12:24 PM, Trans <transfire at gmail.com> wrote:
+> Judson,
+>
+> Have you done much with your branch yet? I've a made some minor fixes
+> to the trunk, so if you want to merge those into your branch, or merge
+> your branch into trunk that would be great.
+>
+> Then I'm going to make a branch of my own and effect explicit
+> enchanting.
+>
+> T.
+> _______________________________________________
+> Ogden-developers mailing list
+> Ogden-developers at rubyforge.org
+> http://rubyforge.org/mailman/listinfo/ogden-developers
+>
+
+
+
+-- 
+Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a grue.
+

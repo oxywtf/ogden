@@ -1,0 +1,57 @@
+From reid.thompson at ateb.com  Tue Apr  1 21:11:56 2008
+From: reid.thompson at ateb.com (Reid Thompson)
+Date: Tue, 01 Apr 2008 21:11:56 -0400
+Subject: [Ogden] ogden gem build instructions?
+Message-ID: <47F2DD5C.4060502@ateb.com>
+
+How do I go about building, installing, using the svn code?  Or is it not in a 
+usable state yet?
+
+thanks,
+reid
+
+From transfire at gmail.com  Sun Apr  6 19:01:34 2008
+From: transfire at gmail.com (Trans)
+Date: Sun, 6 Apr 2008 16:01:34 -0700 (PDT)
+Subject: [Ogden] ogden gem build instructions?
+In-Reply-To: <47F2DD5C.4060502@ateb.com>
+References: <47F2DD5C.4060502@ateb.com>
+Message-ID: <0a351d1f-5e38-44a9-b727-0d1c55d7e7bd@u3g2000hsc.googlegroups.com>
+
+
+
+On Apr 1, 9:11 pm, Reid Thompson <reid.thomp... at ateb.com> wrote:
+> How do I go about building, installing, using the svn code?  Or is it not in a
+> usable state yet?
+
+I haven't focused on building yet, since it still has some major bugs
+to shake loose. I've only had enough time recently to do a little work
+on it --namely to get Orderable almost working. But I'll try to get
+this in order in the next week, and give a status update then.
+
+T.
+
+From Reid.Thompson at ateb.com  Mon Apr  7 08:24:15 2008
+From: Reid.Thompson at ateb.com (Reid Thompson)
+Date: Mon, 07 Apr 2008 08:24:15 -0400
+Subject: [Ogden] ogden gem build instructions?
+In-Reply-To: <0a351d1f-5e38-44a9-b727-0d1c55d7e7bd@u3g2000hsc.googlegroups.com>
+References: <47F2DD5C.4060502@ateb.com>
+	<0a351d1f-5e38-44a9-b727-0d1c55d7e7bd@u3g2000hsc.googlegroups.com>
+Message-ID: <1207571055.15451.3.camel@raker.ateb.com>
+
+On Sun, 2008-04-06 at 16:01 -0700, Trans wrote:
+> 
+> On Apr 1, 9:11 pm, Reid Thompson <reid.thomp... at ateb.com> wrote:
+> > How do I go about building, installing, using the svn code?  Or is it not in a
+> > usable state yet?
+> 
+> I haven't focused on building yet, since it still has some major bugs
+> to shake loose. I've only had enough time recently to do a little work
+> on it --namely to get Orderable almost working. But I'll try to get
+> this in order in the next week, and give a status update then.
+
+Great! -- thanks for the effort.
+
+reid
+

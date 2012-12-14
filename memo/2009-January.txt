@@ -1,0 +1,160 @@
+From william.full.moon at gmail.com  Thu Jan  1 08:41:13 2009
+From: william.full.moon at gmail.com (* William)
+Date: Fri, 2 Jan 2009 00:41:13 +1100
+Subject: [Ogden] new year ... What is the state of OGden?
+Message-ID: <9e03c3c60901010541w44a20527maa01ee2db9c533f1@mail.gmail.com>
+
+Happy 2009 Everyone!
+
+I was wanting to use my break time to get back onto OG and look at ogden,
+only the most recent post I've seen for it is quite old.
+
+Is there a package (.ZIP or what ever) that can be called an 'alpha' that
+one might frolic with?
+
+Alternatively: when could we see something like that?  Is the source bank in
+good shape?
+
+-- 
+aloha,
+        \_w_/
+          [ask about marketing your technology]
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://rubyforge.org/pipermail/ogden-developers/attachments/20090102/815642c4/attachment.html>
+
+From transfire at gmail.com  Thu Jan  1 23:19:20 2009
+From: transfire at gmail.com (Trans)
+Date: Thu, 1 Jan 2009 20:19:20 -0800 (PST)
+Subject: [Ogden] new year ... What is the state of OGden?
+In-Reply-To: <9e03c3c60901010541w44a20527maa01ee2db9c533f1@mail.gmail.com>
+References: <9e03c3c60901010541w44a20527maa01ee2db9c533f1@mail.gmail.com>
+Message-ID: <0536c279-2224-40f9-a4a9-e8a25a6367ef@s20g2000yqh.googlegroups.com>
+
+
+
+On Jan 1, 8:41?am, "* William" <william.full.m... at gmail.com> wrote:
+> Happy 2009 Everyone!
+>
+> I was wanting to use my break time to get back onto OG and look at ogden,
+
+that would be great.
+
+> only the most recent post I've seen for it is quite old.
+
+development stalled. i had too many projects on my plate. Og fell to
+the wayside because I didn't originally write the code and I wasn't
+using Og in any of my applications.
+
+> Is there a package (.ZIP or what ever) that can be called an 'alpha' that
+> one might frolic with?
+
+yes, there is a git repo. see http://rubyforge.org/scm/?group_id=5023
+
+> Alternatively: when could we see something like that? ?Is the source bank in
+> good shape?
+
+the source is in fairly good shape. there are some bugs to weed out
+however and there are some specific TODO items. the build tool I use
+is Reap (it's sort of like Maven for Ruby). unfortunately reap is
+still betaware. but it does work well enough for use.
+
+let me know if you are still interested after you have a closer look.
+i will need to make some minor changes to admin files to bring the
+project up to speed with the current version of reap.
+
+-tom
+
+From lasso3000 at yahoo.se  Thu Jan 29 08:28:58 2009
+From: lasso3000 at yahoo.se (Lars Olsson)
+Date: Thu, 29 Jan 2009 05:28:58 -0800 (PST)
+Subject: [Ogden]  new year ... What is the state of OGden?
+Message-ID: <432405.9794.qm@web24713.mail.ird.yahoo.com>
+
+Hi,
+
+> the source is in fairly good shape. there are some bugs to weed out
+> however and there are some specific TODO items
+
+I'd like to help out if I can. Trans, you mentioned bugs, but the Rubyforge bugtracker seems empty. Do you have a list of bugs stored somewhere else?
+
+/lasso
+ 
+________________________________________
+Lars Olsson
+lasso3000(at)yahoo.se
+
+
+      ___________________________________________________
+S?k efter k?rleken!
+Hitta din tvillingsj?l p? Yahoo! Dejting: http://ad.doubleclick.net/clk;185753627;24584539;x?http://se.meetic.yahoo.net/index.php?mtcmk=148783
+
+
+From william.full.moon at gmail.com  Sat Jan 31 01:04:48 2009
+From: william.full.moon at gmail.com (* William)
+Date: Sat, 31 Jan 2009 17:04:48 +1100
+Subject: [Ogden] new year ... What is the state of OGden?
+In-Reply-To: <432405.9794.qm@web24713.mail.ird.yahoo.com>
+References: <432405.9794.qm@web24713.mail.ird.yahoo.com>
+Message-ID: <9e03c3c60901302204v2afde419jb3025f0c69bbc5a0@mail.gmail.com>
+
+Hi there ...
+
+It has been very hot here, so I haven't done much.  One seeming intractable
+bug that I get when I run the simple demo.rb  as a regression test against
+the last OG gem, ..
+
+  *  odgen demo.rb
+       ..........  works a-ok with the OG-0.41.0
+       ..........  String class doesn't exist with the ogden library
+
+That seems a nonsense to me.
+
+My hypotheis was an issue is with a class decoration or mixin,  definition
+or something.
+
+I have been poking about using the debugger.  Unfortunately the 'problem'
+comes during the class load I'm sure and not when the Og verbs are used.
+
+Any expertise in 'string' woud be good.
+
+:-)
+
+2009/1/30 Lars Olsson <lasso3000 at yahoo.se>
+
+> Hi,
+>
+> > the source is in fairly good shape. there are some bugs to weed out
+> > however and there are some specific TODO items
+>
+> I'd like to help out if I can. Trans, you mentioned bugs, but the Rubyforge
+> bugtracker seems empty. Do you have a list of bugs stored somewhere else?
+>
+> /lasso
+>
+> ________________________________________
+> Lars Olsson
+> lasso3000(at)yahoo.se
+>
+>
+>      ___________________________________________________
+> S?k efter k?rleken!
+> Hitta din tvillingsj?l p? Yahoo! Dejting:
+> http://ad.doubleclick.net/clk;185753627;24584539;x?http://se.meetic.yahoo.net/index.php?mtcmk=148783
+>
+> _______________________________________________
+> Ogden-developers mailing list
+> Ogden-developers at rubyforge.org
+> http://rubyforge.org/mailman/listinfo/ogden-developers
+>
+
+
+
+-- 
+aloha,
+        \_w_/
+          [ask about marketing your technology]
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <http://rubyforge.org/pipermail/ogden-developers/attachments/20090131/32b9ce30/attachment.html>
+

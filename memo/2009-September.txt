@@ -1,0 +1,17 @@
+From jgilles at multitech.com  Mon Sep 28 15:25:23 2009
+From: jgilles at multitech.com (Jesse Gilles)
+Date: Mon, 28 Sep 2009 14:25:23 -0500
+Subject: [Ogden] status update, ruby 1.9
+Message-ID: <1254165923.3726.1.camel@jjg-linux>
+
+Hello,
+
+I haven't seen any activity on Og/Ogden for quite a while and was
+wondering if anyone had been able to get it running with ruby 1.9?  I
+assume it would involve quite a few changes and moving to a newer facets
+library.
+
+Thanks,
+Jesse
+
+

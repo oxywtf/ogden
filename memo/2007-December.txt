@@ -1,0 +1,1322 @@
+From nyarly at gmail.com  Fri Dec 14 14:23:31 2007
+From: nyarly at gmail.com (Judson Lester)
+Date: Fri, 14 Dec 2007 11:23:31 -0800
+Subject: [Ogden] First post!
+Message-ID: <8905c87a0712141123lb60d6a2tca87f87068dbed04@mail.gmail.com>
+
+Seriously though,
+
+In terms of ongoing development, are you opposed to rake?
+
+Also, to respond to your comments about not wanting to lead Ogden, and not
+to presume too much too soon, I'll volunteer to shepherd this thing.
+
+Judson
+
+-- 
+Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+grue.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://rubyforge.org/pipermail/ogden-developers/attachments/20071214/61d7559a/attachment.html 
+
+From transfire at gmail.com  Fri Dec 14 15:23:12 2007
+From: transfire at gmail.com (Trans)
+Date: Fri, 14 Dec 2007 15:23:12 -0500
+Subject: [Ogden] New List, New Google Group
+Message-ID: <4b6f054f0712141223s7c86a586r86f5b0d33bcc32ea@mail.gmail.com>
+
+This is a test of the new ogden-developer at rubyforge.org mailing list.
+
+Any Pings?
+
+T.
+
+From transfire at gmail.com  Fri Dec 14 15:19:50 2007
+From: transfire at gmail.com (Trans)
+Date: Fri, 14 Dec 2007 12:19:50 -0800 (PST)
+Subject: [Ogden] New List, New Google Group
+Message-ID: <983257cb-249c-4c9b-9898-aa932fab7938@d4g2000prg.googlegroups.com>
+
+This is a test. I've set up a Google Group archive of the ogden-
+developers mailing list.
+
+  http://groups.google.com/group/ogden-developers?hl=en
+
+With any luck we are good to go.
+
+T.
+
+From nyarly at gmail.com  Fri Dec 14 15:52:18 2007
+From: nyarly at gmail.com (Judson Lester)
+Date: Fri, 14 Dec 2007 12:52:18 -0800
+Subject: [Ogden] New List, New Google Group
+In-Reply-To: <4b6f054f0712141223s7c86a586r86f5b0d33bcc32ea@mail.gmail.com>
+References: <4b6f054f0712141223s7c86a586r86f5b0d33bcc32ea@mail.gmail.com>
+Message-ID: <8905c87a0712141252n5fda0d90j57dabf518f695f12@mail.gmail.com>
+
+Hey there.  All good to go.
+
+On Dec 14, 2007 12:23 PM, Trans <transfire at gmail.com> wrote:
+
+> This is a test of the new ogden-developer at rubyforge.org mailing list.
+>
+> Any Pings?
+>
+> T.
+> _______________________________________________
+> Ogden-developers mailing list
+> Ogden-developers at rubyforge.org
+> http://rubyforge.org/mailman/listinfo/ogden-developers
+>
+
+
+
+-- 
+Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+grue.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://rubyforge.org/pipermail/ogden-developers/attachments/20071214/51ef481e/attachment.html 
+
+From nyarly at gmail.com  Mon Dec 17 14:03:56 2007
+From: nyarly at gmail.com (Judson Lester)
+Date: Mon, 17 Dec 2007 11:03:56 -0800
+Subject: [Ogden] Starting a branch
+Message-ID: <8905c87a0712171103j5f98bd11hec8f220236bbacb@mail.gmail.com>
+
+I'm going to start a branch, mostly to create specs in.  I'll also probably
+be putting a copy of my standard Rakefile in for my own convenience.
+
+Judson
+
+-- 
+Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+grue.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://rubyforge.org/pipermail/ogden-developers/attachments/20071217/a2092351/attachment.html 
+
+From transfire at gmail.com  Mon Dec 17 19:59:34 2007
+From: transfire at gmail.com (Trans)
+Date: Mon, 17 Dec 2007 16:59:34 -0800 (PST)
+Subject: [Ogden] Starting a branch
+In-Reply-To: <8905c87a0712171103j5f98bd11hec8f220236bbacb@mail.gmail.com>
+References: <8905c87a0712171103j5f98bd11hec8f220236bbacb@mail.gmail.com>
+Message-ID: <99770c4b-aa81-4555-be12-d91867852ebf@x69g2000hsx.googlegroups.com>
+
+
+
+On Dec 17, 2:03 pm, "Judson Lester" <nya... at gmail.com> wrote:
+> I'm going to start a branch, mostly to create specs in.  I'll also probably
+> be putting a copy of my standard Rakefile in for my own convenience.
+
+Great.
+
+I'm planning to drop in some ratch tasks, and make admin things run
+like butter. What's do you have in your Rakefile?
+
+T.
+
+From nyarly at gmail.com  Mon Dec 17 20:08:03 2007
+From: nyarly at gmail.com (Judson Lester)
+Date: Mon, 17 Dec 2007 17:08:03 -0800
+Subject: [Ogden] Starting a branch
+In-Reply-To: <99770c4b-aa81-4555-be12-d91867852ebf@x69g2000hsx.googlegroups.com>
+References: <8905c87a0712171103j5f98bd11hec8f220236bbacb@mail.gmail.com>
+	<99770c4b-aa81-4555-be12-d91867852ebf@x69g2000hsx.googlegroups.com>
+Message-ID: <8905c87a0712171708t8d850d5qbe0bb8e190c21781@mail.gmail.com>
+
+It's mostly running specs (including a hack like Autotest-ish - only run
+failures) and building gems.  Nothing huge, but it works for me.
+
+On Dec 17, 2007 4:59 PM, Trans <transfire at gmail.com> wrote:
+
+>
+>
+> On Dec 17, 2:03 pm, "Judson Lester" <nya... at gmail.com> wrote:
+> > I'm going to start a branch, mostly to create specs in.  I'll also
+> probably
+> > be putting a copy of my standard Rakefile in for my own convenience.
+>
+> Great.
+>
+> I'm planning to drop in some ratch tasks, and make admin things run
+> like butter. What's do you have in your Rakefile?
+>
+> T.
+> _______________________________________________
+> Ogden-developers mailing list
+> Ogden-developers at rubyforge.org
+> http://rubyforge.org/mailman/listinfo/ogden-developers
+>
+
+
+
+-- 
+Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+grue.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://rubyforge.org/pipermail/ogden-developers/attachments/20071217/bf8c4e57/attachment.html 
+
+From mvyver at gmail.com  Wed Dec 19 19:36:08 2007
+From: mvyver at gmail.com (Mark Van De Vyver)
+Date: Thu, 20 Dec 2007 11:36:08 +1100
+Subject: [Ogden] Ogden and sequel
+Message-ID: <389c43e40712191636x445b2dd0w1f7bbfbeacbd77c6@mail.gmail.com>
+
+Hi,
+I'd like to canvas thoughts on setting a project goal of incorporating
+some of Sequel into/under Ogden?
+
+Exactly what parts of Sequel is open to debate and implementation.
+My initial thought is to include as much as possible that does not
+intrude on the managing/enchanting of Og classes.
+>From my look at Sequel it is more advanced than Og on several
+functional fronts and has some good user and dev momentum.
+So ConnectionPool, Database/Adapter, Dataset, Model and query
+generation, etc would be Sequel's - overridden by Ogden specific
+methods where required to knit with Og enchanting.
+
+I built a static snapshot of Sequel into the DBI adapter, because I
+wasn't aware of what might be possible, and it does look feasible to
+me - and I'm just a programming amateur and Ruby novice :)
+
+Ideally Sequel would be a required package instead of having a static
+snapshot of Sequel built into Ogden.
+>From my dry run this can be done if:
+ - some changes are made to Ogden
+ - some changes are made to Sequel
+
+Hopefully we wouldn't affect Sequel's behavior adversely, but we might
+need some changes to the way code is organized.  Example Sequel::Model
+methods would need to be moved to some module so that Ogden can
+include them when enchanting a class.
+
+If Sequel dev's are open to exploring this, Ogden devs would need to
+contribute any changes to Sequel to get this done.
+
+Given so much of Ogden's non-enchanting related code would be sequels
+it seems a little redundant to try and knock the whole of Ogden into
+shape before starting this effort... we'd just polish many (most?)
+parts of Ogden only to drop them.
+
+If this was a path taken it would seem that Ogdens two major goals would be:
+ - Clean up the meta-coding (code, documentation and specs)
+ - Incorporate Sequel (adapt code and adapt specs)
+
+
+Thoughts?
+
+Mark
+
+From nyarly at gmail.com  Wed Dec 19 20:36:10 2007
+From: nyarly at gmail.com (Judson Lester)
+Date: Wed, 19 Dec 2007 17:36:10 -0800
+Subject: [Ogden] Ogden and sequel
+In-Reply-To: <389c43e40712191636x445b2dd0w1f7bbfbeacbd77c6@mail.gmail.com>
+References: <389c43e40712191636x445b2dd0w1f7bbfbeacbd77c6@mail.gmail.com>
+Message-ID: <8905c87a0712191736w4b05c28do9a05b3253e22a03f@mail.gmail.com>
+
+On Dec 19, 2007 4:36 PM, Mark Van De Vyver <mvyver at gmail.com> wrote:
+
+> Hi,
+> I'd like to canvas thoughts on setting a project goal of incorporating
+> some of Sequel into/under Ogden?
+>
+> Exactly what parts of Sequel is open to debate and implementation.
+> My initial thought is to include as much as possible that does not
+> intrude on the managing/enchanting of Og classes.
+> >From my look at Sequel it is more advanced than Og on several
+> functional fronts and has some good user and dev momentum.
+> So ConnectionPool, Database/Adapter, Dataset, Model and query
+> generation, etc would be Sequel's - overridden by Ogden specific
+>
+
+ To be honest, I'm at a loss as to the motivation.  I can see the virtues of
+examining something like the Sequel method chaining technique (post.where(:name
+=> "judson")) but the reason that Sequel would overwhelm the code in Ogden
+is that they have very different focuses.  Strictly speaking, I can't see
+how Sequel is an ORM at all.  It's a wrapper on SQL, which is certainly
+nice, but rows of databases are mapped to Ruby hashes.  That's a far cry
+from an actual ORM.
+
+Quite possibly, Sequel has some good ideas in terms of raw SQL access, and
+it'd be worth looking at how to defer queries until they're needed, for
+instance.  It's possible that it would be worth comparing the pooling
+mechanism from Facets that Ogden uses to the Sequel connection pool.
+
+But I tend very much to think that, short of discarding Og and starting a
+new project, the first step has got to be cleaning that codebase up.
+Otherwise there's no real sane way to make any changes.
+
+Judson
+-- 
+Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+grue.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://rubyforge.org/pipermail/ogden-developers/attachments/20071219/9bde447c/attachment.html 
+
+From mvyver at gmail.com  Wed Dec 19 21:07:08 2007
+From: mvyver at gmail.com (Mark Van De Vyver)
+Date: Thu, 20 Dec 2007 13:07:08 +1100
+Subject: [Ogden] Ogden and sequel
+In-Reply-To: <8905c87a0712191736w4b05c28do9a05b3253e22a03f@mail.gmail.com>
+References: <389c43e40712191636x445b2dd0w1f7bbfbeacbd77c6@mail.gmail.com>
+	<8905c87a0712191736w4b05c28do9a05b3253e22a03f@mail.gmail.com>
+Message-ID: <389c43e40712191807m5c6f0badve7d9844f316b71bb@mail.gmail.com>
+
+On Dec 20, 2007 12:36 PM, Judson Lester <nyarly at gmail.com> wrote:
+>
+>
+>
+> On Dec 19, 2007 4:36 PM, Mark Van De Vyver <mvyver at gmail.com> wrote:
+> > Hi,
+> > I'd like to canvas thoughts on setting a project goal of incorporating
+> > some of Sequel into/under Ogden?
+> >
+> > Exactly what parts of Sequel is open to debate and implementation.
+> > My initial thought is to include as much as possible that does not
+> > intrude on the managing/enchanting of Og classes.
+> > >From my look at Sequel it is more advanced than Og on several
+> > functional fronts and has some good user and dev momentum.
+> > So ConnectionPool, Database/Adapter, Dataset, Model and query
+> > generation, etc would be Sequel's - overridden by Ogden specific
+> >
+>
+>  To be honest, I'm at a loss as to the motivation.  I can see the virtues of
+
+AFAICT Sequel would not inhibit anything Ogden currently can do.
+The motive then is to get enhanced functionality, docs, spec and
+(possibly) user community with minimal additional effort.
+
+> examining something like the Sequel method chaining technique (
+> post.where(:name => "judson")) but the reason that Sequel would overwhelm
+> the code in Ogden is that they have very different focuses.
+
+Filtering, datasets, sub-queries are some benefits.  I think the
+ConnectionPooling is better in Sequel and there may be other
+'lower-level' parts that added to Ogden?
+
+> Strictly
+> speaking, I can't see how Sequel is an ORM at all.  It's a wrapper on SQL,
+> which is certainly nice, but rows of databases are mapped to Ruby hashes.
+
+No that (rows as hashes) is not the complete story.
+As I say we don't seem to lose anything, yes you can get the data as a
+hash _AND_ as object attributes.
+
+<quote>
+A model instances stores its values as a hash:
+
+post.values #=> {:id => 123, :category => 'ruby', :title => 'hello world'}
+
+You can read the record values as object attributes:
+
+post.id #=> 123
+post.title #=> 'hello world'
+
+You can also change record values:
+
+post.title = 'hey there'
+post.save
+</quote>
+
+> That's a far cry from an actual ORM.
+
+I won't proclaim to be an O/RM guru, but it seems to me that Sequel
+provides much of the tools required by an ORM?  Or at least useful
+when implementing an ORM?
+Furthermore, Ogden can always override a Sequel method where doesn't
+fit perfectly/well.
+My experience was this is in very few places.
+
+> Quite possibly, Sequel has some good ideas in terms of raw SQL access, and
+> it'd be worth looking at how to defer queries until they're needed, for
+> instance.  It's possible that it would be worth comparing the pooling
+> mechanism from Facets that Ogden uses to the Sequel connection pool.
+>
+> But I tend very much to think that, short of discarding Og and starting a
+> new project, the first step has got to be cleaning that codebase up.
+> Otherwise there's no real sane way to make any changes.
+
+My experience was that it was quicker to incorporate Sequel's
+functionality than to: decipher, debug, spec and document what Og was
+doing.  In addition we get the results of a much wider dev effort and
+wider user experiences.
+Bear in mind I'm referring mainly to the non-enchanting related code.
+
+Sequel takes a different tack to creating a table, but again it seems
+to me their code is well suited to Ogdens task.
+
+Speculation:
+When looking at the enchanting code it may well be easier to implement
+some things by calling Sequel's methods.
+This I've not fully looked into and is pure conjecture.
+
+> Judson
+> --
+> Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+> grue.
+> _______________________________________________
+> Ogden-developers mailing list
+> Ogden-developers at rubyforge.org
+> http://rubyforge.org/mailman/listinfo/ogden-developers
+>
+>
+
+From transfire at gmail.com  Wed Dec 19 23:27:45 2007
+From: transfire at gmail.com (Trans)
+Date: Wed, 19 Dec 2007 20:27:45 -0800 (PST)
+Subject: [Ogden] Starting a branch
+In-Reply-To: <8905c87a0712171708t8d850d5qbe0bb8e190c21781@mail.gmail.com>
+References: <8905c87a0712171103j5f98bd11hec8f220236bbacb@mail.gmail.com> 
+	<99770c4b-aa81-4555-be12-d91867852ebf@x69g2000hsx.googlegroups.com> 
+	<8905c87a0712171708t8d850d5qbe0bb8e190c21781@mail.gmail.com>
+Message-ID: <3c401010-2719-4a3a-94af-947252d56914@s8g2000prg.googlegroups.com>
+
+
+
+On Dec 17, 8:08 pm, "Judson Lester" <nya... at gmail.com> wrote:
+> It's mostly running specs (including a hack like Autotest-ish - only run
+> failures) and building gems.  Nothing huge, but it works for me.
+
+OK. That's good. I'll grab a copy of your Rakefile and see what I can
+incorporate into Ratch. Ultimately you'll be a happy Ratch user too ;)
+
+Have you made the branch yet?
+
+T.
+
+From mvyver at gmail.com  Wed Dec 19 23:50:07 2007
+From: mvyver at gmail.com (Mark Van De Vyver)
+Date: Thu, 20 Dec 2007 15:50:07 +1100
+Subject: [Ogden] Ogden specs
+Message-ID: <389c43e40712192050x1152869cw3f849b39b2c07d44@mail.gmail.com>
+
+Climbing back on the hobby horse...
+
+Is there any reason/benefit for Ogden to buck the rspec naming
+conventions ./spec/*_spec.rb?
+
+On the topic of specs:
+What a spec file actually describes gets opaque when multiple classes
+are in a single file.
+Is it classed as minor (i.e. branching not required) to reorganize
+when writing a spec?  Renaming classes?
+
+Cheers
+
+From mvyver at gmail.com  Thu Dec 20 00:43:23 2007
+From: mvyver at gmail.com (Mark Van De Vyver)
+Date: Thu, 20 Dec 2007 16:43:23 +1100
+Subject: [Ogden] Ogden Rakefile patch
+Message-ID: <389c43e40712192143p4d489b57rec44aae8c5472978@mail.gmail.com>
+
+Hi
+Attached is a Rakefile patch, essentially I edited the Sequel Rakefile...
+
+I placed two TODO items, but there maybe more - I've never worked with
+rubyforge and gems.
+
+The spec/*_spec.rb convention is assumed.
+
+Let me know if I should change how a patch is submitted.
+
+HTH
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Rakefile.patch
+Type: text/x-patch
+Size: 5681 bytes
+Desc: not available
+Url : http://rubyforge.org/pipermail/ogden-developers/attachments/20071220/a5a4327f/attachment.bin 
+
+From transfire at gmail.com  Thu Dec 20 07:58:35 2007
+From: transfire at gmail.com (Trans)
+Date: Thu, 20 Dec 2007 04:58:35 -0800 (PST)
+Subject: [Ogden] Ogden Rakefile patch
+In-Reply-To: <389c43e40712192143p4d489b57rec44aae8c5472978@mail.gmail.com>
+References: <389c43e40712192143p4d489b57rec44aae8c5472978@mail.gmail.com>
+Message-ID: <4a044851-46c1-46c0-9692-910799d52113@p69g2000hsa.googlegroups.com>
+
+
+
+On Dec 20, 12:43 am, "Mark Van De Vyver" <mvy... at gmail.com> wrote:
+> Hi
+> Attached is a Rakefile patch, essentially I edited the Sequel Rakefile...
+>
+> I placed two TODO items, but there maybe more - I've never worked with
+> rubyforge and gems.
+>
+> The spec/*_spec.rb convention is assumed.
+>
+> Let me know if I should change how a patch is submitted.
+
+Since this is the second Rakefile suggestion. I'll go ahead and put a
+complete build system in place.
+
+T.
+
+From transfire at gmail.com  Thu Dec 20 08:20:14 2007
+From: transfire at gmail.com (Trans)
+Date: Thu, 20 Dec 2007 05:20:14 -0800 (PST)
+Subject: [Ogden] Ogden and sequel
+In-Reply-To: <389c43e40712191807m5c6f0badve7d9844f316b71bb@mail.gmail.com>
+References: <389c43e40712191636x445b2dd0w1f7bbfbeacbd77c6@mail.gmail.com> 
+	<8905c87a0712191736w4b05c28do9a05b3253e22a03f@mail.gmail.com> 
+	<389c43e40712191807m5c6f0badve7d9844f316b71bb@mail.gmail.com>
+Message-ID: <d962b00d-2df3-4381-a28d-803306467ae7@i72g2000hsd.googlegroups.com>
+
+
+
+On Dec 19, 9:07 pm, "Mark Van De Vyver" <mvy... at gmail.com> wrote:
+> On Dec 20, 2007 12:36 PM, Judson Lester <nya... at gmail.com> wrote:
+> >  To be honest, I'm at a loss as to the motivation.  I can see the virtues of
+
+I have to agree with Judson.
+
+> AFAICT Sequel would not inhibit anything Ogden currently can do.
+> The motive then is to get enhanced functionality, docs, spec and
+> (possibly) user community with minimal additional effort.
+
+Not of those things really matter except functionality, and that's
+were I'm not seeing how this fits together. No doubt there are
+elements of Sequel that can be of benefit to Og, but retro-fitting the
+whole of Og to work on Sequel's terms doesn't make much sense to me.
+Maybe I'm wrong. Maybe I just don't see the bigger picture that you
+do. But even so, it would be a huge undertaking --so much so Judson
+makes a good point, that we may as well start over. That's not the
+goal  however. The goal is to improve Og, and we need do that
+incrementally, little by little.
+
+> > examining something like the Sequel method chaining technique (
+> > post.where(:name => "judson")) but the reason that Sequel would overwhelm
+> > the code in Ogden is that they have very different focuses.
+>
+> Filtering, datasets, sub-queries are some benefits.  I think the
+> ConnectionPooling is better in Sequel and there may be other
+> 'lower-level' parts that added to Ogden?
+
+We can certainly look into the pooling area of Sequel and see if it is
+useful to us.
+
+> I won't proclaim to be an O/RM guru, but it seems to me that Sequel
+> provides much of the tools required by an ORM?  Or at least useful
+> when implementing an ORM?
+> Furthermore, Ogden can always override a Sequel method where doesn't
+> fit perfectly/well.
+> My experience was this is in very few places.
+
+If Sequel provides everything needed except for a "very few places"
+why not just enhance Sequel instead?
+
+> > Quite possibly, Sequel has some good ideas in terms of raw SQL access, and
+> > it'd be worth looking at how to defer queries until they're needed, for
+> > instance.  It's possible that it would be worth comparing the pooling
+> > mechanism from Facets that Ogden uses to the Sequel connection pool.
+>
+> > But I tend very much to think that, short of discarding Og and starting a
+> > new project, the first step has got to be cleaning that codebase up.
+> > Otherwise there's no real sane way to make any changes.
+>
+> My experience was that it was quicker to incorporate Sequel's
+> functionality than to: decipher, debug, spec and document what Og was
+> doing.  In addition we get the results of a much wider dev effort and
+> wider user experiences.
+> Bear in mind I'm referring mainly to the non-enchanting related code.
+>
+> Sequel takes a different tack to creating a table, but again it seems
+> to me their code is well suited to Ogdens task.
+>
+> Speculation:
+> When looking at the enchanting code it may well be easier to implement
+> some things by calling Sequel's methods.
+> This I've not fully looked into and is pure conjecture.
+
+Og is all about the enchanting. Without it, there is no Og. Is your
+suggestion that we should rewrite Og's enchanting on top of Sequel?
+
+T.
+
+From nyarly at gmail.com  Thu Dec 20 14:07:50 2007
+From: nyarly at gmail.com (Judson Lester)
+Date: Thu, 20 Dec 2007 11:07:50 -0800
+Subject: [Ogden] Starting a branch
+In-Reply-To: <3c401010-2719-4a3a-94af-947252d56914@s8g2000prg.googlegroups.com>
+References: <8905c87a0712171103j5f98bd11hec8f220236bbacb@mail.gmail.com>
+	<99770c4b-aa81-4555-be12-d91867852ebf@x69g2000hsx.googlegroups.com>
+	<8905c87a0712171708t8d850d5qbe0bb8e190c21781@mail.gmail.com>
+	<3c401010-2719-4a3a-94af-947252d56914@s8g2000prg.googlegroups.com>
+Message-ID: <8905c87a0712201107j2c58a565n997c4588444d4999@mail.gmail.com>
+
+On Dec 19, 2007 8:27 PM, Trans <transfire at gmail.com> wrote:
+
+>
+>
+> On Dec 17, 8:08 pm, "Judson Lester" <nya... at gmail.com> wrote:
+> > It's mostly running specs (including a hack like Autotest-ish - only run
+> > failures) and building gems.  Nothing huge, but it works for me.
+>
+> OK. That's good. I'll grab a copy of your Rakefile and see what I can
+> incorporate into Ratch. Ultimately you'll be a happy Ratch user too ;)
+>
+
+I'm going to start calling you djb if you aren't careful. :)  I might
+consider Ratch if the project didn't seem to be closed down on rubyforge.
+Maybe you could talk to the dev about that?
+
+
+> Have you made the branch yet?
+>
+
+Yeah: branches/judsons
+
+I just made a couple little tweaks to the Rakefile - including a coverage
+requirement on new releases (which might not be appropriate yet, but it's a
+goal.)
+
+Judson
+-- 
+Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+grue.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://rubyforge.org/pipermail/ogden-developers/attachments/20071220/b0fb699c/attachment.html 
+
+From nyarly at gmail.com  Thu Dec 20 14:12:16 2007
+From: nyarly at gmail.com (Judson Lester)
+Date: Thu, 20 Dec 2007 11:12:16 -0800
+Subject: [Ogden] Ogden specs
+In-Reply-To: <389c43e40712192050x1152869cw3f849b39b2c07d44@mail.gmail.com>
+References: <389c43e40712192050x1152869cw3f849b39b2c07d44@mail.gmail.com>
+Message-ID: <8905c87a0712201112rd2ab983q2f3174b442511514@mail.gmail.com>
+
+Mark,
+
+I've actually been focusing on cleaning up specs in my branch.  I'd agree
+with you: there's a value to following convention wrt /spec/*.rb - but
+*_spec.rb isn't completely universal, and I for one find it redundant.
+
+Your other points are subject to larger discussion, I think.  I'd tend to
+think that a group of examples often describes a class, but Ogden is a very
+different project in a lot of ways, and it makes sense to describe
+"validation" in one place as opposed to Og::Model.
+
+Judson
+-- 
+Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+grue.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://rubyforge.org/pipermail/ogden-developers/attachments/20071220/588be1f3/attachment.html 
+
+From nyarly at gmail.com  Thu Dec 20 14:13:53 2007
+From: nyarly at gmail.com (Judson Lester)
+Date: Thu, 20 Dec 2007 11:13:53 -0800
+Subject: [Ogden] Ogden Rakefile patch
+In-Reply-To: <4a044851-46c1-46c0-9692-910799d52113@p69g2000hsa.googlegroups.com>
+References: <389c43e40712192143p4d489b57rec44aae8c5472978@mail.gmail.com>
+	<4a044851-46c1-46c0-9692-910799d52113@p69g2000hsa.googlegroups.com>
+Message-ID: <8905c87a0712201113q4e0411ecma92062849d2b1816@mail.gmail.com>
+
+On Dec 20, 2007 4:58 AM, Trans <transfire at gmail.com> wrote:
+
+> Since this is the second Rakefile suggestion. I'll go ahead and put a
+> complete build system in place.
+>
+> If you mean ratch by that, could you talk for a moment about the benefits
+of ratch over rake?
+
+Judson
+-- 
+Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+grue.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://rubyforge.org/pipermail/ogden-developers/attachments/20071220/56e2f41d/attachment-0001.html 
+
+From mvyver at gmail.com  Thu Dec 20 17:32:25 2007
+From: mvyver at gmail.com (Mark Van De Vyver)
+Date: Fri, 21 Dec 2007 09:32:25 +1100
+Subject: [Ogden] Ogden and sequel
+In-Reply-To: <d962b00d-2df3-4381-a28d-803306467ae7@i72g2000hsd.googlegroups.com>
+References: <389c43e40712191636x445b2dd0w1f7bbfbeacbd77c6@mail.gmail.com>
+	<8905c87a0712191736w4b05c28do9a05b3253e22a03f@mail.gmail.com>
+	<389c43e40712191807m5c6f0badve7d9844f316b71bb@mail.gmail.com>
+	<d962b00d-2df3-4381-a28d-803306467ae7@i72g2000hsd.googlegroups.com>
+Message-ID: <389c43e40712201432i60eba40do1651773599df9d4d@mail.gmail.com>
+
+On Dec 21, 2007 12:20 AM, Trans <transfire at gmail.com> wrote:
+>
+>
+> On Dec 19, 9:07 pm, "Mark Van De Vyver" <mvy... at gmail.com> wrote:
+> > On Dec 20, 2007 12:36 PM, Judson Lester <nya... at gmail.com> wrote:
+> > >  To be honest, I'm at a loss as to the motivation.  I can see the virtues of
+>
+> I have to agree with Judson.
+
+OK
+
+> > AFAICT Sequel would not inhibit anything Ogden currently can do.
+> > The motive then is to get enhanced functionality, docs, spec and
+> > (possibly) user community with minimal additional effort.
+>
+> Not of those things really matter except functionality, and that's
+
+Correct.
+
+> were I'm not seeing how this fits together. No doubt there are
+> elements of Sequel that can be of benefit to Og, but retro-fitting the
+> whole of Og to work on Sequel's terms doesn't make much sense to me.
+
+Fair enough.
+
+> Maybe I'm wrong. Maybe I just don't see the bigger picture that you
+> do. But even so, it would be a huge undertaking --so much so Judson
+> makes a good point, that we may as well start over. That's not the
+> goal  however. The goal is to improve Og, and we need do that
+> incrementally, little by little.
+
+OK.  I just saw little point in reinventing the wheel when
+implementing functionality that Sequel provides.
+
+> > > examining something like the Sequel method chaining technique (
+> > > post.where(:name => "judson")) but the reason that Sequel would overwhelm
+> > > the code in Ogden is that they have very different focuses.
+> >
+> > Filtering, datasets, sub-queries are some benefits.  I think the
+> > ConnectionPooling is better in Sequel and there may be other
+> > 'lower-level' parts that added to Ogden?
+>
+> We can certainly look into the pooling area of Sequel and see if it is
+> useful to us.
+>
+> > I won't proclaim to be an O/RM guru, but it seems to me that Sequel
+> > provides much of the tools required by an ORM?  Or at least useful
+> > when implementing an ORM?
+> > Furthermore, Ogden can always override a Sequel method where doesn't
+> > fit perfectly/well.
+> > My experience was this is in very few places.
+>
+> If Sequel provides everything needed except for a "very few places"
+
+That isn't what I said - close to the opposite though.
+
+> why not just enhance Sequel instead?
+
+That would require many major changes.
+
+> > > Quite possibly, Sequel has some good ideas in terms of raw SQL access, and
+> > > it'd be worth looking at how to defer queries until they're needed, for
+> > > instance.  It's possible that it would be worth comparing the pooling
+> > > mechanism from Facets that Ogden uses to the Sequel connection pool.
+> >
+> > > But I tend very much to think that, short of discarding Og and starting a
+> > > new project, the first step has got to be cleaning that codebase up.
+> > > Otherwise there's no real sane way to make any changes.
+> >
+> > My experience was that it was quicker to incorporate Sequel's
+> > functionality than to: decipher, debug, spec and document what Og was
+> > doing.  In addition we get the results of a much wider dev effort and
+> > wider user experiences.
+> > Bear in mind I'm referring mainly to the non-enchanting related code.
+> >
+> > Sequel takes a different tack to creating a table, but again it seems
+> > to me their code is well suited to Ogdens task.
+> >
+> > Speculation:
+> > When looking at the enchanting code it may well be easier to implement
+> > some things by calling Sequel's methods.
+> > This I've not fully looked into and is pure conjecture.
+>
+> Og is all about the enchanting. Without it, there is no Og. Is your
+> suggestion that we should rewrite Og's enchanting on top of Sequel?
+
+I never mentioned a complete enchanting rewrite - I just listed your
+original todo nomination.
+Some enchanting methods would require tweaking, but that is far from
+suggesting a rewrite or abandoning what is there in terms of
+enchanting code.
+
+Seems I'm Robinson Crusoe on this idea :)
+
+Cheers
+
+>
+> T.
+> _______________________________________________
+> Ogden-developers mailing list
+> Ogden-developers at rubyforge.org
+> http://rubyforge.org/mailman/listinfo/ogden-developers
+>
+
+From transfire at gmail.com  Thu Dec 20 18:40:00 2007
+From: transfire at gmail.com (Trans)
+Date: Thu, 20 Dec 2007 15:40:00 -0800 (PST)
+Subject: [Ogden] Ogden and sequel
+In-Reply-To: <389c43e40712201432i60eba40do1651773599df9d4d@mail.gmail.com>
+References: <389c43e40712191636x445b2dd0w1f7bbfbeacbd77c6@mail.gmail.com> 
+	<8905c87a0712191736w4b05c28do9a05b3253e22a03f@mail.gmail.com> 
+	<389c43e40712191807m5c6f0badve7d9844f316b71bb@mail.gmail.com> 
+	<d962b00d-2df3-4381-a28d-803306467ae7@i72g2000hsd.googlegroups.com> 
+	<389c43e40712201432i60eba40do1651773599df9d4d@mail.gmail.com>
+Message-ID: <e70b7e6b-4c41-4de0-8a70-6a549ade6986@x29g2000prg.googlegroups.com>
+
+
+
+On Dec 20, 5:32 pm, "Mark Van De Vyver" <mvy... at gmail.com> wrote:
+
+> Seems I'm Robinson Crusoe on this idea :)
+
+I'm just not seeing it really. When you mentioned that your idea would
+ultimately have Og depend on Sequel I really felt it wasn't the right
+direction. I'm all for exchanging code, so don't think I'm against
+garnering what we can from Sequel. But I also see Og as being a self
+sufficient ORM system.
+
+You are more then welcome to make a svn branch and try out whatever
+you like of course.
+
+T.
+
+From mvyver at gmail.com  Thu Dec 20 19:46:51 2007
+From: mvyver at gmail.com (Mark Van De Vyver)
+Date: Fri, 21 Dec 2007 11:46:51 +1100
+Subject: [Ogden] Ogden and sequel
+In-Reply-To: <e70b7e6b-4c41-4de0-8a70-6a549ade6986@x29g2000prg.googlegroups.com>
+References: <389c43e40712191636x445b2dd0w1f7bbfbeacbd77c6@mail.gmail.com>
+	<8905c87a0712191736w4b05c28do9a05b3253e22a03f@mail.gmail.com>
+	<389c43e40712191807m5c6f0badve7d9844f316b71bb@mail.gmail.com>
+	<d962b00d-2df3-4381-a28d-803306467ae7@i72g2000hsd.googlegroups.com>
+	<389c43e40712201432i60eba40do1651773599df9d4d@mail.gmail.com>
+	<e70b7e6b-4c41-4de0-8a70-6a549ade6986@x29g2000prg.googlegroups.com>
+Message-ID: <389c43e40712201646k299a9b10hee4a94c727efb0f@mail.gmail.com>
+
+On Dec 21, 2007 10:40 AM, Trans <transfire at gmail.com> wrote:
+>
+>
+> On Dec 20, 5:32 pm, "Mark Van De Vyver" <mvy... at gmail.com> wrote:
+>
+> > Seems I'm Robinson Crusoe on this idea :)
+>
+> I'm just not seeing it really. When you mentioned that your idea would
+> ultimately have Og depend on Sequel I really felt it wasn't the right
+> direction. I'm all for exchanging code, so don't think I'm against
+> garnering what we can from Sequel. But I also see Og as being a self
+> sufficient ORM system.
+
+Yes, a difference of opinion one when a dependency means Ogden is not
+self-sufficient :)
+
+Does this mean there is an in principle opposition to such dependencies?
+Specifically:
+ - Validatable gem
+ - Paginator gem
+
+> You are more then welcome to make a svn branch and try out whatever
+> you like of course.
+
+I'm against fracturing efforts.  If its not a convincing idea its not
+a convincing idea!
+I'll branch if I need something can't live without and it's rejected
+from the main line of Ogden.
+
+Cheers
+
+>
+> T.
+> _______________________________________________
+> Ogden-developers mailing list
+> Ogden-developers at rubyforge.org
+> http://rubyforge.org/mailman/listinfo/ogden-developers
+>
+
+From mvyver at gmail.com  Thu Dec 20 19:54:57 2007
+From: mvyver at gmail.com (Mark Van De Vyver)
+Date: Fri, 21 Dec 2007 11:54:57 +1100
+Subject: [Ogden] Ogden and sequel
+In-Reply-To: <e70b7e6b-4c41-4de0-8a70-6a549ade6986@x29g2000prg.googlegroups.com>
+References: <389c43e40712191636x445b2dd0w1f7bbfbeacbd77c6@mail.gmail.com>
+	<8905c87a0712191736w4b05c28do9a05b3253e22a03f@mail.gmail.com>
+	<389c43e40712191807m5c6f0badve7d9844f316b71bb@mail.gmail.com>
+	<d962b00d-2df3-4381-a28d-803306467ae7@i72g2000hsd.googlegroups.com>
+	<389c43e40712201432i60eba40do1651773599df9d4d@mail.gmail.com>
+	<e70b7e6b-4c41-4de0-8a70-6a549ade6986@x29g2000prg.googlegroups.com>
+Message-ID: <389c43e40712201654q5e04197cs6c632ddaee9f26a1@mail.gmail.com>
+
+Just to clarify in case anyone else comes along this thread...
+
+On Dec 21, 2007 10:40 AM, Trans <transfire at gmail.com> wrote:
+>
+>
+> On Dec 20, 5:32 pm, "Mark Van De Vyver" <mvy... at gmail.com> wrote:
+>
+> > Seems I'm Robinson Crusoe on this idea :)
+>
+> I'm just not seeing it really. When you mentioned that your idea would
+> ultimately have Og depend on Sequel I really felt it wasn't the right
+> direction. I'm all for exchanging code, so don't think I'm against
+
+I contributed a patch to Og that physically moved some Sequel 0.3.x
+code into Og.
+Just for the record in case anyone comes searching alone this path....
+I'm not tracking and patching all the bug fixes and enhancements that
+occur in Sequel - that would raise redundant effort to the extreme :)
+If I ever do jump into this... the maximum effectiveness path is to
+contribute any changes to a Ogden branch and/or Sequel (if they are
+receptive).
+
+
+> garnering what we can from Sequel. But I also see Og as being a self
+> sufficient ORM system.
+>
+> You are more then welcome to make a svn branch and try out whatever
+> you like of course.
+>
+>
+> T.
+> _______________________________________________
+> Ogden-developers mailing list
+> Ogden-developers at rubyforge.org
+> http://rubyforge.org/mailman/listinfo/ogden-developers
+>
+
+From mvyver at gmail.com  Thu Dec 20 20:14:02 2007
+From: mvyver at gmail.com (Mark Van De Vyver)
+Date: Fri, 21 Dec 2007 12:14:02 +1100
+Subject: [Ogden] Ogden specs
+In-Reply-To: <389c43e40712201355y45877a64h3aa49d3d36578dba@mail.gmail.com>
+References: <389c43e40712192050x1152869cw3f849b39b2c07d44@mail.gmail.com>
+	<8905c87a0712201112rd2ab983q2f3174b442511514@mail.gmail.com>
+	<389c43e40712201355y45877a64h3aa49d3d36578dba@mail.gmail.com>
+Message-ID: <389c43e40712201714s4d5533c0xb152779d3c1bcc71@mail.gmail.com>
+
+One other point...
+
+On Dec 21, 2007 8:55 AM, Mark Van De Vyver <mvyver at gmail.com> wrote:
+> On Dec 21, 2007 6:12 AM, Judson Lester <nyarly at gmail.com> wrote:
+> > Mark,
+> >
+> > I've actually been focusing on cleaning up specs in my branch.  I'd agree
+> > with you: there's a value to following convention wrt /spec/*.rb - but
+> > *_spec.rb isn't completely universal, and I for one find it redundant.
+
+This probably depends on how specs are run and how files are
+organized: Not every file under ./spec will be a spec file.
+Probably not serious.
+
+> > Your other points are subject to larger discussion, I think.  I'd tend to
+> > think that a group of examples often describes a class, but Ogden is a very
+> > different project in a lot of ways, and it makes sense to describe
+> > "validation" in one place as opposed to Og::Model.
+>
+
+Perhaps we should put something in the wiki with suggestions about how
+specs are organized and tips/hints for writing them?
+
+Cheers
+
+> I was thinking more of the case where you have several classes in one file.
+> and classes and modules in a file.
+> Yep, spec's become tricky since it can be difficult to separate
+> adapter behavior.
+> We may have to live with some level of duplication?
+>
+> Cheers
+>
+>
+> > Judson
+> > --
+> > Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+> > grue.
+>
+
+From nyarly at gmail.com  Thu Dec 20 21:18:22 2007
+From: nyarly at gmail.com (Judson Lester)
+Date: Thu, 20 Dec 2007 18:18:22 -0800
+Subject: [Ogden] Dependencies
+Message-ID: <8905c87a0712201818o7cbd1cfbl5a1bc1a821ffb80@mail.gmail.com>
+
+On Dec 20, 2007 4:46 PM, Mark Van De Vyver <mvyver at gmail.com> wrote:
+
+> Yes, a difference of opinion one when a dependency means Ogden is not
+> self-sufficient :)
+>
+> Does this mean there is an in principle opposition to such dependencies?
+> Specifically:
+>  - Validatable gem
+>  - Paginator gem
+>
+
+ I for one would like to see Ogden be a completely standalone gem.  That's
+maybe too ambitious, but I think it's a basic enough functionality to want
+as few dependencies as possible, with the ideal being zero.
+
+Judson
+-- 
+Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+grue.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://rubyforge.org/pipermail/ogden-developers/attachments/20071220/001b0c48/attachment.html 
+
+From nyarly at gmail.com  Thu Dec 20 21:21:50 2007
+From: nyarly at gmail.com (Judson Lester)
+Date: Thu, 20 Dec 2007 18:21:50 -0800
+Subject: [Ogden] Ogden and sequel
+In-Reply-To: <389c43e40712201654q5e04197cs6c632ddaee9f26a1@mail.gmail.com>
+References: <389c43e40712191636x445b2dd0w1f7bbfbeacbd77c6@mail.gmail.com>
+	<8905c87a0712191736w4b05c28do9a05b3253e22a03f@mail.gmail.com>
+	<389c43e40712191807m5c6f0badve7d9844f316b71bb@mail.gmail.com>
+	<d962b00d-2df3-4381-a28d-803306467ae7@i72g2000hsd.googlegroups.com>
+	<389c43e40712201432i60eba40do1651773599df9d4d@mail.gmail.com>
+	<e70b7e6b-4c41-4de0-8a70-6a549ade6986@x29g2000prg.googlegroups.com>
+	<389c43e40712201654q5e04197cs6c632ddaee9f26a1@mail.gmail.com>
+Message-ID: <8905c87a0712201821g4ebcd10cx9cd39780ddf2bfec@mail.gmail.com>
+
+On Dec 20, 2007 4:54 PM, Mark Van De Vyver <mvyver at gmail.com> wrote:
+
+> I contributed a patch to Og that physically moved some Sequel 0.3.x
+> code into Og.
+> Just for the record in case anyone comes searching alone this path....
+> I'm not tracking and patching all the bug fixes and enhancements that
+> occur in Sequel - that would raise redundant effort to the extreme :)
+> If I ever do jump into this... the maximum effectiveness path is to
+> contribute any changes to a Ogden branch and/or Sequel (if they are
+> receptive).
+>
+
+Anything you want to do along those lines would be excellent.  The license
+for Sequel is very permissive - just be sure to credit copyright for
+"significant portions" to Sharon.
+
+And don't be afraid to start a branch.  It's the easiest way to do extensive
+work and make it available.
+
+Judson
+-- 
+Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+grue.
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://rubyforge.org/pipermail/ogden-developers/attachments/20071220/6695901b/attachment.html 
+
+From transfire at gmail.com  Fri Dec 21 00:37:45 2007
+From: transfire at gmail.com (Trans)
+Date: Thu, 20 Dec 2007 21:37:45 -0800 (PST)
+Subject: [Ogden] Dependencies
+In-Reply-To: <8905c87a0712201818o7cbd1cfbl5a1bc1a821ffb80@mail.gmail.com>
+References: <8905c87a0712201818o7cbd1cfbl5a1bc1a821ffb80@mail.gmail.com>
+Message-ID: <366a7969-5d3d-440c-b7e3-670927c45ef0@t1g2000pra.googlegroups.com>
+
+
+
+On Dec 20, 9:18 pm, "Judson Lester" <nya... at gmail.com> wrote:
+> On Dec 20, 2007 4:46 PM, Mark Van De Vyver <mvy... at gmail.com> wrote:
+>
+> > Yes, a difference of opinion one when a dependency means Ogden is not
+> > self-sufficient :)
+>
+> > Does this mean there is an in principle opposition to such dependencies?
+> > Specifically:
+> >  - Validatable gem
+> >  - Paginator gem
+>
+>  I for one would like to see Ogden be a completely standalone gem.  That's
+> maybe too ambitious, but I think it's a basic enough functionality to want
+> as few dependencies as possible, with the ideal being zero.
+
+Zero is always the ideal, yes. There are of course exceptions. Facets
+for instance is used because it proved a pool of general purpose
+needs. Other dependencies may be considered too, certainly. But don't
+be too hasty in siding with an external dependency. For instance this
+Validatable gem. I've never seen it before so I took a look. And at
+first glance, I can see how it is easy to think, "Wow, this covers all
+of these validation needs already. We can just depend on it and get
+all this great functionality for free." But that's a sort of an
+illusion. Just because there's all this functionality there doesn't
+mean it's GOOD functionality, or that it will FIT in with our system.
+Indeed, in this case I think Validatable is rather a poor system. It's
+a rip off from Rails; it's far more complex then it needs to be; and
+it's not really all that innovative --in other words it is not KISS
+nor COOL.
+
+In any case, the point is dependencies are certainly possible, but
+they will be scrutinized very very carefully.
+
+T.
+
+From transfire at gmail.com  Fri Dec 21 01:00:14 2007
+From: transfire at gmail.com (Trans)
+Date: Thu, 20 Dec 2007 22:00:14 -0800 (PST)
+Subject: [Ogden] Ogden Rakefile patch
+In-Reply-To: <8905c87a0712201113q4e0411ecma92062849d2b1816@mail.gmail.com>
+References: <389c43e40712192143p4d489b57rec44aae8c5472978@mail.gmail.com> 
+	<4a044851-46c1-46c0-9692-910799d52113@p69g2000hsa.googlegroups.com> 
+	<8905c87a0712201113q4e0411ecma92062849d2b1816@mail.gmail.com>
+Message-ID: <7804298b-1292-4f07-a2bb-e3a9a05f0328@l32g2000hsh.googlegroups.com>
+
+
+
+On Dec 20, 2:13 pm, "Judson Lester" <nya... at gmail.com> wrote:
+> On Dec 20, 2007 4:58 AM, Trans <transf... at gmail.com> wrote:
+>
+> > Since this is the second Rakefile suggestion. I'll go ahead and put a
+> > complete build system in place.
+>
+> > If you mean ratch by that, could you talk for a moment about the benefits
+>
+> of ratch over rake?
+
+Better and easier to use ;-)
+
+No, seriously. Rake is a good system and has certain advantages. It's
+more mature for instance. But I've designed Ratch as sort of "Next
+Generation" with a string focus on ease of use and "unix-way"
+thinking. The main distinction is that Ratch uses script files rather
+than a monolithic system. This make it easy to isolate particular
+needs. Yet, these scripts can reference each other as needed, and each
+can define sub-tasks and builds. Evn more important though, the DSL
+Ratch provides is much more extensive.
+
+I'm still working on docs, so until that's further along the best
+thing is for me to show you. If you look in the current trunk of Ogden
+you will see a task/ directory. This is where all the ratch scripts
+reside. Most of these scripts are simply copies from ratch's toolset
+repository and are fully general purpose, ready to go with only a
+little configuration via meta/config.yaml.
+
+I need to finish tweaking a few tasks though, and a few other's I
+still need to add. But I think there's enough there to get the idea.
+
+Ratch itself is ~90%, I'd say. There's still one major design question
+I have to consider, and one other major feature I know I need to add.
+No doubt there will be a few other details yet, but I'm confident
+enough in the system and I have been using it for a few months on all
+my other project quite happily. In a few more months I should think
+I'd be ready to recommend it to the community at large.
+
+T.
+
+From william.full.moon at gmail.com  Fri Dec 21 17:16:48 2007
+From: william.full.moon at gmail.com (* William)
+Date: Sat, 22 Dec 2007 09:16:48 +1100
+Subject: [Ogden] Dependencies
+In-Reply-To: <8905c87a0712201818o7cbd1cfbl5a1bc1a821ffb80@mail.gmail.com>
+References: <8905c87a0712201818o7cbd1cfbl5a1bc1a821ffb80@mail.gmail.com>
+Message-ID: <9e03c3c60712211416p17fe8643r701eeb6997090cc8@mail.gmail.com>
+
+hi all groovey people ;-)
+
+Happy, happy joy, joy for all ...As an aside, There's a bit of semantic fog
+happening at least on this "thread/v01.beta'
+
+"DEPEND" --> you just can't live without it.
+
+   - eg.  Air, Water, iPod
+
+"Optional" (yet needs on-of-these)
+
+   - Oddly enough I can point everyone to ::
+   "IN{TER}DEPENDENCE:
+   Three Letters, that Make a World of Difference" (2007); Danita Matuch;
+
+   News and Notes; UNAA; v.33(1); Jan-2007
+   www.unaansw.org.au
+   - The interesting piece is ...
+
+"This differs distinctly from independence, which sets one group apart from
+another.  An interdependent relationship implies that all participants are
+emotionally, economically, and politically independent -- Yet still
+connected." (ibid, p.3)
+
+   - For "political", consider the term "buzz word".
+   - For "emotional", think about "linux" or (in the old days :: BSD)
+   - for political ... HEY ... review the: "Robinson Crusoe" comment,
+   that is a political comment.
+
+Not that I mind.  My note is that many do not always consider the context of
+ideas and comments.
+
+It isn't just-a mail issue, see the quote above.  It is a world-wide thing
+;-)  The model I was taught is (oddly) from Star Wars -- Skywalker "trusts"
+and "depends" on his friends to deliver.
+
+So it might be with software modules.  Myer used to talk about programming
+by "contract".  It is worth crystallising the ESSENCE from this discussion.
+I'm sure it is much better than a pout ...
+
+I got lucky this year.  I managed to interact with a bunch of people from
+outside my normal ken (context).  Pretty much what a tool like OG can do, is
+to allow people to think outside the square.
+
+The "naughty" framework for radical thinking is about "and, and, and, and,
+..." --ALL colours of AND.  Not a single "or" among them. That seems to
+define "me" at the moment, no mater how incredible it sounds, with the
+exception of my first office-mate (Michael Youseff), I pretty much got
+the "and,
+and, ..." bug before I got a real job.
+
+Since that may be a bit esoteric, let me come back to "me".  It is about
+maths.  Make the 'conflict' into 3 or more orthogonal (metaphorical)
+"vectors".
+
+   - Yes
+   it may take "more"(??) time/$$/Mars bars
+   - NO
+   There is no more cost effective way
+
+How *could* I know that?
+
+Back to my pal Michael, who played Backgammon like a dervish -- And he said
+he is SLOW!  Doing it ... that is what makes "theory" and "concepts" into
+great Backgammon players.
+
+Enjoy your x-Mas-mas-mas,
+                                          \__W
+
+
+
+On 21/12/2007, Judson Lester <nyarly at gmail.com> wrote:
+>
+>
+>
+> On Dec 20, 2007 4:46 PM, Mark Van De Vyver <mvyver at gmail.com> wrote:
+>
+> > Yes, a difference of opinion one when a dependency means Ogden is not
+> > self-sufficient :)
+> >
+> > Does this mean there is an in principle opposition to such dependencies?
+> > Specifically:
+> >  - Validatable gem
+> >  - Paginator gem
+> >
+>
+>  I for one would like to see Ogden be a completely standalone gem.  That's
+> maybe too ambitious, but I think it's a basic enough functionality to want
+> as few dependencies as possible, with the ideal being zero.
+>
+> Judson
+> --
+> Your subnet is currently 169.254.0.0/16.  You are likely to be eaten by a
+> grue.
+> _______________________________________________
+> Ogden-developers mailing list
+> Ogden-developers at rubyforge.org
+> http://rubyforge.org/mailman/listinfo/ogden-developers
+>
+>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: http://rubyforge.org/pipermail/ogden-developers/attachments/20071222/bf6732dc/attachment.html 
+
+From weather at speakeasy.net  Thu Dec 27 19:47:37 2007
+From: weather at speakeasy.net (Matthew B Gardner)
+Date: Thu, 27 Dec 2007 19:47:37 -0500
+Subject: [Ogden] A few Og NameError bugs
+Message-ID: <200712271947.37871.weather@speakeasy.net>
+
+Hello, I've been using Og via darcs through the Nitro Project repo, and I'm 
+encountering NameError bugs that weren't there as of a few weeks ago on my 
+standalone application (Og only, not Nitro). These bugs also don't seem to 
+bother my Nitro application and it runs fine. I guess my first question is, 
+should I be grabbing Og somewhere other than through the Nitro Project now?
+
+Here are the bugs...I'd sent them to the Nitro list too, but didn't receive 
+any replies and thought maybe they should be coming here? Thanks in advance 
+for any help.
+
+** The first NameError was in lib/og/validation.rb, where the Og module wasn't 
+being declared prior to Og::Mixin -- I just threw module Og; end right before 
+it and that went away.
+
+** The current NameError is this:
+
+Caught NameError: undefined local variable or method `attributes' for 
+YAML::YPath:Class
+        /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/util/ann_attr.rb:51:in 
+`serializable_attributes'
+        /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/manager.rb:192:in 
+`manageable?'
+        /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/manager.rb:222:in 
+`manageable_classes'
+        /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/manager.rb:218:in 
+`manageable_classes'
+        /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/manager.rb:239:in 
+`manage_classes'
+        /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/main.rb:192:in `setup'
+        ./lib/core/world.rb:65:in `og_connect'
+
+
+My version is 0.50.0. Is there some version update out there that I need to 
+grab? I'm assuming that these errors would have already been caught if they 
+were in everyones version.
+
+-Matt
+
+From transfire at gmail.com  Thu Dec 27 20:19:34 2007
+From: transfire at gmail.com (Trans)
+Date: Thu, 27 Dec 2007 17:19:34 -0800 (PST)
+Subject: [Ogden] A few Og NameError bugs
+In-Reply-To: <200712271947.37871.weather@speakeasy.net>
+References: <200712271947.37871.weather@speakeasy.net>
+Message-ID: <00295c9f-dca6-4adf-b4bd-b9a2c2030d23@v4g2000hsf.googlegroups.com>
+
+
+
+On Dec 27, 7:47 pm, Matthew B Gardner <weat... at speakeasy.net> wrote:
+> Hello, I've been using Og via darcs through the Nitro Project repo, and I'm
+> encountering NameError bugs that weren't there as of a few weeks ago on my
+> standalone application (Og only, not Nitro). These bugs also don't seem to
+> bother my Nitro application and it runs fine. I guess my first question is,
+> should I be grabbing Og somewhere other than through the Nitro Project now?
+>
+> Here are the bugs...I'd sent them to the Nitro list too, but didn't receive
+> any replies and thought maybe they should be coming here? Thanks in advance
+> for any help.
+>
+> ** The first NameError was in lib/og/validation.rb, where the Og module wasn't
+> being declared prior to Og::Mixin -- I just threw module Og; end right before
+> it and that went away.
+>
+> ** The current NameError is this:
+>
+> Caught NameError: undefined local variable or method `attributes' for
+> YAML::YPath:Class
+>         /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/util/ann_attr.rb:51:in
+> `serializable_attributes'
+>         /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/manager.rb:192:in
+> `manageable?'
+>         /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/manager.rb:222:in
+> `manageable_classes'
+>         /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/manager.rb:218:in
+> `manageable_classes'
+>         /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/manager.rb:239:in
+> `manage_classes'
+>         /usr/lib/ruby/gems/1.8/gems/og-0.50.0/lib/og/main.rb:192:in `setup'
+>         ./lib/core/world.rb:65:in `og_connect'
+>
+> My version is 0.50.0. Is there some version update out there that I need to
+> grab? I'm assuming that these errors would have already been caught if they
+> were in everyones version.
+
+Reporting those bugs to the Nitro list was the right thing to do. And
+I will fix them ASAP. As I fix bugs in Og, I try to port them over to
+Ogden, though I'm a little behind right now.
+
+Note, that Og in the Nitro darcs repo is the official version and will
+remain so for the time being. But basically it will become a "tagged"
+version (0.50) very soon, so only important bug fixes will be applied
+to it. Ogden OTOH is a major improvement project that will soon take
+on changes that won't be 100% API compatible with the original Og
+(albeit it will still be very close to the original).
+
+So for Nitro use, stick with Nitro's repo. If you are interested in
+using Og independent of Nitro then Ogden would be the better choice,
+but it will be a few months before it will be "api settled".
+
+T.
+
